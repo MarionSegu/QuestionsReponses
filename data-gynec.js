@@ -16,8 +16,8 @@ const tableauQRgyneco = [
         "reponse" : "<span style= 'text-align: left'>- coronarien <br>- thromboembolique <br>- AVC <br>- démence <br>- cancer du sein <br>- cancer de l'ovaire </span>"
     },
     {
-        "question" : "",
-        "reponse" : ""
+        "question" : "patate ?",
+        "reponse" : "patate"
     },
     {
         "question" : "",
