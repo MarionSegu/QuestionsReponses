@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestionsRéponses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class= "pharma" style="background-color: rgb(144, 245, 174)">
+    <div id ="principale">
+    <div id="container">
+        <h1>
+            Réponds aux questions de Pharmacologie
+        </h1>
+        <div id="flip">
+            <div id="inner">
+                <div id="q" style="background-color: rgb(2, 91, 42)">
+                    <p class="question" style="color: rgb(144, 245, 174)">
+
+                    </p>
+                </div>
+                <div id="r" style="background-color: rgb(2, 91, 42)">
+                    <p class="rep" style="color: rgb(144, 245, 174)">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="btn-afficher" type="button" onclick="qr.afficherrep()" style="background-color: rgb(2, 91, 42) ; color: rgb(144, 245, 174)">
+                Afficher la réponse
+            </button>
+            <button id="btn-suivant" type="button" onclick="qr.suivant()" style="background-color: rgb(2, 91, 42) ; color: rgb(144, 245, 174)">
+                Question suivante
+            </button>
+        </div>
+
+        <a href="./index.html" style="color: rgb(2, 91, 42)">
+            Questions globales
+        </a>
+
+    </div>
+    <div id="liste">
+        <input placeholder="Rechercher" class="rechercher" type="text" oninput="qr.search(this.value)" />
+        <ul id="listeQ">
+
+        </ul>
+    </div>
+</div>
+    <script src="./data-pharma.js">
+
+    </script>
+    <script src="./main.js">
+
+    </script>
+    <script>
+        const qr = QuestionReponse(tableauQRPharma);
+    </script>
+</body>
+
+</html>

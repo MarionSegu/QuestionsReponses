@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./style.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestionsRéponses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id ="principale">
+    <div id="container">
+        <h1>
+            Réponds aux questions de Pédiatrie
+        </h1>
+        <div id="flip">
+            <div id="inner">
+                <div id="q">
+                    <p class="question">
+
+                    </p>
+                </div>
+                <div id="r">
+                    <p class="rep">
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="btn-afficher" type="button" onclick="qr.afficherrep()">
+                Afficher la réponse
+            </button>
+            <button id="btn-suivant" type="button" onclick="qr.suivant()">
+                Question suivante
+            </button>
+        </div>
+
+        <a href="./index.html">
+            Questions globales
+        </a>
+
+    </div>
+    <div id="liste">
+        <input placeholder="Rechercher" class="rechercher" type="text" oninput="qr.search(this.value)"/>
+        <ul id="listeQ">
+
+        </ul>
+    </div>
+</div>
+    <script src="./data-pedia.js">
+
+    </script>
+    <script src="./main.js">
+
+    </script>
+    <script>
+        const qr = QuestionReponse(tableauQRPedia);
+    </script>
+</body>
+
+</html>
