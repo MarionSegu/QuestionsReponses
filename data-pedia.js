@@ -1,8 +1,32 @@
 const tableauQRPedia = [
     {
-        "question": "Question pedia",
-        "reponse" : "Reponse ëdia"
-    }
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
+    {
+        "question": "",
+        "reponse" : ""
+    },
 ]
 
 

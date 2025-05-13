@@ -203,6 +203,70 @@ const tableauQRObste = [
         "question" : "Comment préparer une table de réanimation du nouveau-né ?",
         "reponse" : "Air O2 21%, Pression air bille 8-10, Neopuff masque PEP (pression expiratoire positive)= 5 , PIP (pression inspiratoire positive)= 25-30"
     },
+    {
+        "question" : "GHR MAP: PEC minimum MAP ?",
+        "reponse" : "<ul> <li>Avis med demandeur TIU</li> <li>Tocolyse (tractocile)</li> <li>Corticothérapie < 34SA</li> <li>Choix mater selon AG et poids</li> <li><24SA se ref à protocole mater</li> <li> Entre 24 et 26SA demander aux parents s'ils souhaitent PEC</li> <li style='font-size:14px'>=> Tranfert, retarder acc, maturation pulmonaire et cérébrale par corticothérapie anténatale et sulfate de magnésium</li></ul>"
+    },
+    {
+        "question" : "GHR MAP: Tranfert mater adaptée selon terme ?",
+        "reponse" : "<ul> <li>Mater 3: > 24SA</li> <li>Mater 2b: > 30SA</li> <li>Mater 2a: > 33SA</li> <li>Mater 1: > 37SA</li> </ul>"
+    },
+    {
+        "question" : "GHR MAP: ATB pour MAP ?",
+        "reponse" : "Pas systématique sans PV + ni CRP ni RM ni Fièvre, à adapter en fonction de BU , ECBU, PV"
+    },
+    {
+        "question" : "GHR MAP: Quels sont les CI à la tocolyse ?",
+        "reponse" : "<ul> <li>Souffrance foetale => naissance</li> <li>Infection intra-itérine => ATB</li> <li>Pathologies maternelles : Prééclampsie sévère, éclampsie, hémorragie génitale, HRP</li><li style='color:#f24b4b'>Pas de tocolyse après 34SA (et avant 23SA)</li></ul>"
+    },
+    {
+        "question" : "GHR MAP: Quels sont les 2 principaux tocolytiques utilisés ?",
+        "reponse" : "- Les Antagonistes de l'ocytocine = Tractocile (Atosiban) : <span style='font-size:16px'>se fixent sur recept utérins et ferment canaux calciques + empèchent Ca2+ de rentrer => arrêt des CU</span><br>- Les inhibiteurs calciques = Nifédipine (Adalate) : <span style='font-size:16px'> ferment les canaux calciques voltage dep et empêchenent Ca2+ de rentrer => arrêt des CU </span>"
+    },
+    {
+        "question" : "GHR MAP: Quels sont les effets secondaires et le protocole du Tractocile (Atosiban) ?",
+        "reponse" : "Effets secondaires (très peu) : nausées, hyperglycémie, hypotension, tachycardie maternelle, hypokaliémie, <span style='color:red; font-weight:bold'>Aucune CI</span> <br> TTT sur 48h IVD: bolus sur 1min puis dose de charge sur 3h puis dose d'entretien sur 48h (peut être répété)"
+    },
+    {
+        "question" : "GHR MAP: Quels sont les effets secondaires et le protocole des Inhibiteurs calciques : Nifédipine ?",
+        "reponse" : "<span style='font-size: 16px'><span style='font-weight:bold'>Effets indésirables:</span> troubles gastro-intestinaux, céphalées, bouffées vasomotrices, hypoTA, tachycardie, palpitations <br><span style='font-weight:bold'>Précautions d'emploi:</span> à avaler pour éviter hypoTA, éviter fortes doses (> 150mg), Attention à la surcharge volémique, surveillance RCF + TA mater, ne pas associer à anti HTA <br>=> Surveillance TA/15min pendant 1h, arrêt immédiat du ttt si symptômes cardiovasculaire <br><span style='font-weight:bold'>TTT:</span> gélules Ip 20mg pendant 48h per os 1cp/ 30min tant qu'il y a des CU, si éfficace passage au ttt d'entretien : 3cp/j pendant 48h</span>"
+    },
+    {
+        "question" : "",
+        "reponse" : "<span style='color:red; font-weight:bold'>"
+    },
+    {
+        "question" : "GHR MAP: Dans quel cas faire du rophylac si MAP ?",
+        "reponse" : "Rophylac 200ug seulement après Tocolyse pour MAP et si Rh- (pas de Kleihauer nécessaire) <br><i>Inutile en cas de Rophylac 200 il y a moins de 9sem ou Rophylac 300 il y a moins de 12sem </i>"
+    },
+    {
+        "question" : "GHR MAP: Quelle corticothérapie ?",
+        "reponse" : "Célestene / Bétamethasone => 2injections IM à 24h d'intervalle"
+    },
+    {
+        "question" : "GHR MAP: Dans quel cas faire une rescue cure de cortivothérapie",
+        "reponse" : "Mieux pour les poumons mais risque neuro <br> Faire une rescure cure si les contitions sont réunis : <br> - 1ère cure < 30SA;<br> - Délais depuis 1ère cure > 14j;<br> - AG < 33SA:<br>Possiblité de la faire en entier avant naissance sinon inutile."
+    },
+    {
+        "question" : "GHR MAP: Antidote Magnésium (MgSO4) ?",
+        "reponse" : "1g Gluconate de Calcium"
+    },
+    {
+        "question" : "",
+        "reponse" : ""
+    },
+    {
+        "question" : "",
+        "reponse" : ""
+    },
+    {
+        "question" : "",
+        "reponse" : ""
+    },
+    {
+        "question" : "",
+        "reponse" : ""
+    },
     
 ]
 

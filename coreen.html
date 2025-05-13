@@ -12,77 +12,55 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class= "coreen" style="background-color: rgb(245, 144, 178)">
     <div id ="principale">
     <div id="container">
         <h1>
-            Réponds aux questions
+            Réponds aux questions de Coréen
         </h1>
         <div id="flip">
             <div id="inner">
-                <div id="q">
-                    <p class="question">
+                <div id="q" style="background-color: rgb(155, 13, 18)">
+                    <p class="question" style="color: rgb(245, 144, 178)">
 
                     </p>
                 </div>
-                <div id="r">
-                    <p class="rep">
+                <div id="r" style="background-color: rgb(155, 13, 18)">
+                    <p class="rep" style="color: rgb(245, 144, 178)">
 
                     </p>
                 </div>
             </div>
         </div>
         <div class="buttons">
-            <button id="btn-afficher" type="button" onclick="qr.afficherrep()">
+            <button id="btn-afficher" type="button" onclick="qr.afficherrep()" style="background-color: rgb(155, 13, 18) ; color: rgb(245, 144, 178)">
                 Afficher la réponse
             </button>
-            <button id="btn-suivant" type="button" onclick="qr.suivant()">
+            <button id="btn-suivant" type="button" onclick="qr.suivant()" style="background-color: rgb(155, 13, 18) ; color: rgb(245, 144, 178)">
                 Question suivante
             </button>
         </div>
 
-        <a href="./obste.html">
-            Questions d'Obstétrique
-        </a>
-        <a href="./pedia.html">
-            Questions de pédiatrie
-        </a>
-        <a href="./gyneco.html">
-            Questions de gynécologie
-        </a>
-        <a href="./pharma.html">
-            Questions de pharmacologie
-        </a>
-        <a href="./coreen.html">
-            Questions de coréen
+        <a href="./index.html" style="color: rgb(155, 13, 18)">
+            Questions globales
         </a>
 
     </div>
     <div id="liste">
-        <input placeholder="Rechercher" class="rechercher" type="text" oninput="qr.search(this.value)"/>
+        <input placeholder="Rechercher" class="rechercher" type="text" oninput="qr.search(this.value)" />
         <ul id="listeQ">
 
         </ul>
     </div>
 </div>
-
-    <script src="./data-pedia.js">
-
-    </script>
-    <script src="./data-obste.js">
-
-    </script>
-    <script src="./data-gynec.js">
-
-    </script>
-    <script src="./data.js">
+    <script src="./data-coreen.js">
 
     </script>
     <script src="./main.js">
 
     </script>
     <script>
-        const qr = QuestionReponse(tableauQR);
+        const qr = QuestionReponse(tableauQRCoreen);
     </script>
 </body>
 
