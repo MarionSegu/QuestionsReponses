@@ -19,4 +19,32 @@ const tableauQRPharma = [
         "question" : "Genèvrier",
         "reponse" : "Juniperus Communis <br> Partie de drogue : ? <br> => douleurs rhumatismales + DTQ"
     },
+    {
+        "question" : "Mauve",
+        "reponse" : "Malva Sylvestris <br> Partie de drogue : Fleurs ou feuilles <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Guimauve",
+        "reponse" : "Althaea Officinalis <br> Partie de drogue : Feuilles ou racines <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Bouillon blanc",
+        "reponse" : "Verbasum Sinuatum <br> Partie de drogue : Fleurs <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Violette odorante",
+        "reponse" : "Viola Odorata <br> Partie de drogue : Fleurs <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Tussilage",
+        "reponse" : "Tussilago Farfara <br> Partie de drogue : Fleurs et feuilles <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Coquelicot",
+        "reponse" : "Papaver Rhoeas <br> Partie de drogue : Pétales <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
+    {
+        "question" : "Pied de Chat",
+        "reponse" : "Antennaria Dioica <br> Partie de drogue : Fleurs femelles <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
+    },
 ]
