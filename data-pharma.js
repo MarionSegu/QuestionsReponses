@@ -47,4 +47,40 @@ const tableauQRPharma = [
         "question" : "Pied de Chat",
         "reponse" : "Antennaria Dioica <br> Partie de drogue : Fleurs femelles <br> => Plante pectorale, Antitussives et Anti-inflammatoire"
     },
+    {
+        "question" : "Erysium",
+        "reponse" : "Sysimbrium Officinale <br> Partie de drogue : Sorités Fleuries <br> => Expectorantes et Mucolytiques : voix enrouée"
+    },
+    {
+        "question" : "Lierre Grimpant",
+        "reponse" : "Hedera Helix<br> Partie de drogue : Feuilles <br> => Antitussive : Toux sèche"
+    },
+    {
+        "question" : "Cyprès",
+        "reponse" : "Cupressus Sempervirens<br> Partie de drogue : Cônes et branches <br> => Antitussive : Toux sèche"
+    },
+    {
+        "question" : "Lierre Terrestre",
+        "reponse" : "Glecmoma Hederacea <br> Partie de drogue : Parties aériennes <br> => Expectorantes et Mucolytiques : Toux grasse"
+    },
+    {
+        "question" : "Marrube Blanc",
+        "reponse" : "Marrubium Vulgare <br> Partie de drogue : SOFL ? <br> => Expectorantes et Mucolytiques : Toux grasse"
+    },
+    {
+        "question" : "Hysope",
+        "reponse" : "Hysopus Officinalis <br> Partie de drogue : SOFL ? <br> => Expectorantes et Mucolytiques : Toux grasse"
+    },
+    {
+        "question" : "Eucalyptus Globuleux",
+        "reponse" : "Eucalyptus Globulus <br> Partie de drogue : Feuilles <br> => Expectorantes et Mucolytiques : Antiseptique"
+    },
+    {
+        "question" : "Thym",
+        "reponse" : "Thymus Vulgaris <br> Partie de drogue : Somités fleuries <br> => Expectorantes et Mucolytiques : Antiseptique"
+    },
+    {
+        "question" : "Pin Sylvestre",
+        "reponse" : "Pinus Sylvestris <br> Partie de drogue : Bourgeons <br> => Expectorantes et Mucolytiques : Antiseptique"
+    },
 ]
